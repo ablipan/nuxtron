@@ -1,4 +1,6 @@
-<p align=“center”> <img width=“170” src="https://github.com/ablipan/nuxtron/raw/main/public/logo.svg?raw=true"> </p>
+<p align="center">
+  <img width="170" src="https://github.com/ablipan/nuxtron/raw/main/public/logo.svg?raw=true">
+</p>
 
 # Nuxtron
 The best way to create desktop applications with Nuxt and Electron
