@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "name": "nuxtron",
+  "type": "module",
+  "main": ".output/electron/main/index.cjs",
+  "scripts": {
+    "build:clean": "rimraf .output",
+    "build": "nuxt build",
+    "dev": "cross-env PORT=3000 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "electron:dev": "electron-vite dev --watch",
+    "electron:build": "electron-vite build",
+    "electron:builder": "electron-builder --config electron-builder.config.cjs --mac --win",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@iconify-json/logos": "^1.1.23",
+    "@types/node": "^18.15.5",
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "@unocss/nuxt": "^0.50.6",
+    "cross-env": "^7.0.3",
+    "electron": "^23.1.4",
+    "electron-builder": "^23.6.0",
+    "electron-vite": "^1.0.20",
+    "eslint": "^8.36.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-vue": "^9.9.0",
+    "get-port": "^6.1.2",
+    "nuxt": "^3.3.1",
+    "rimraf": "^4.4.0",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "electron-log": "5.0.0-beta.19"
+  }
+}
