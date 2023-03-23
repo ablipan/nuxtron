@@ -2,6 +2,7 @@
   "private": true,
   "version": "1.0.0",
   "name": "nuxtron",
+  "author": "Pan",
   "type": "module",
   "main": ".output/electron/main/index.cjs",
   "scripts": {
